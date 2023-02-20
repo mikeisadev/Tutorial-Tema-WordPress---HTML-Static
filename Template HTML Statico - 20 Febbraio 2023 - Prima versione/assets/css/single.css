@@ -1,0 +1,36 @@
+/*
+ * CSS per gli articoli - By Michele Mincone - 14/02/2023
+ */
+
+/* PAGE > Hero section (Above the fold) */
+.post-hero-section {
+    height: 400px;
+}
+
+/* META INFO */
+.post .meta-info i {
+    margin: none;
+}
+.post .meta-info a {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.hero-section-meta-info {
+    text-align: center;
+    width: max-content;
+}
+.hero-section-meta-info a, .hero-section-meta-info i {
+    color: #ffffff;
+    width: 40%;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+    .hero-section-meta-info {
+        text-align: left;
+        width: max-content;
+    }
+}

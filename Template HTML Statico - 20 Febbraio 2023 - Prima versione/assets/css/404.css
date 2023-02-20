@@ -1,0 +1,17 @@
+/*
+ * CSS per la pagina 404 - By Michele Mincone - 14/02/2023
+ */
+
+.not-found-content {
+    text-align: center;
+    width: 600px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.not-found {
+    font-weight: 800;
+    font-size: 156px;
+    line-height: 1.15;
+}
